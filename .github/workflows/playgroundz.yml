@@ -34,3 +34,9 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+
+      - name: get-comment-body
+        run: |
+          body="コメント表示テスト"
+          echo "::set-output name=body::$body"
