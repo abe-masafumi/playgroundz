@@ -15,4 +15,4 @@
 
 - Github Actions logの表示
    
-  (参考資料)[]
+  (参考資料)[https://zenn.dev/mikana0918/articles/e2a2d332b8b9a6]

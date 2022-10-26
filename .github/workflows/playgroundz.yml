@@ -39,4 +39,4 @@ jobs:
       - name: get-comment-body
         run: |
           body="コメント表示テスト"
-          echo "::set-output name=body::$body"
+          echo "{body}={$body}" >> $GITHUB_OUTPUT
